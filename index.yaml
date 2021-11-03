@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  airflow:
+  - apiVersion: v2
+    created: "2021-11-03T13:19:56.150818-03:00"
+    dependencies:
+    - name: airflow
+      repository: https://airflow.apache.org
+      version: 1.2.0
+    description: Helm chart to deploy the Astronomer Platform Airflow module
+    digest: deca07c255d5cf19f6bb3ed203fa4f70903fc654c19f6897f8742265dfa334cb
+    icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
+    keywords:
+    - astronomer
+    - airflow
+    name: airflow
+    urls:
+    - https://github.com/thmzlt/airflow-chart/releases/download/airflow-1.0.5-dev2/airflow-1.0.5-dev2.tgz
+    version: 1.0.5-dev2
+generated: "2021-11-03T13:19:56.150859-03:00"
