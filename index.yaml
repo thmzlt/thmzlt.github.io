@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   airflow:
   - apiVersion: v2
-    created: "2021-11-03T13:52:42.023122-03:00"
+    created: "2021-11-03T14:06:02.528199-03:00"
     dependencies:
     - name: airflow
       repository: https://airflow.apache.org
       version: 1.2.0
     description: Helm chart to deploy the Astronomer Platform Airflow module
-    digest: cf381243abbc920021af872531c7ea20eae05908feb8e9c9c903eb6330d9e3a8
+    digest: d59e0d0229440aeba7a72c249faf686b86f68d45274873da02d36f4dd3b8acc5
     icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
     keywords:
     - astronomer
@@ -17,36 +17,4 @@ entries:
     urls:
     - https://github.com/thmzlt/airflow-chart/releases/download/airflow-1.0.5-rc3/airflow-1.0.5-rc3.tgz
     version: 1.0.5-rc3
-  - apiVersion: v2
-    created: "2021-11-03T13:52:41.776061-03:00"
-    dependencies:
-    - name: airflow
-      repository: https://airflow.apache.org
-      version: 1.2.0
-    description: Helm chart to deploy the Astronomer Platform Airflow module
-    digest: af1c8b6dc2e7bc100b300c350859c7a583055a8cabe7b5a805925eb5478a863f
-    icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
-    keywords:
-    - astronomer
-    - airflow
-    name: airflow
-    urls:
-    - https://github.com/thmzlt/airflow-chart/releases/download/airflow-1.0.5-rc2/airflow-1.0.5-rc2.tgz
-    version: 1.0.5-rc2
-  - apiVersion: v2
-    created: "2021-11-03T13:52:41.516257-03:00"
-    dependencies:
-    - name: airflow
-      repository: https://airflow.apache.org
-      version: 1.2.0
-    description: Helm chart to deploy the Astronomer Platform Airflow module
-    digest: deca07c255d5cf19f6bb3ed203fa4f70903fc654c19f6897f8742265dfa334cb
-    icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
-    keywords:
-    - astronomer
-    - airflow
-    name: airflow
-    urls:
-    - https://github.com/thmzlt/airflow-chart/releases/download/airflow-1.0.5-dev2/airflow-1.0.5-dev2.tgz
-    version: 1.0.5-dev2
-generated: "2021-11-03T13:52:42.023139-03:00"
+generated: "2021-11-03T14:06:02.52821-03:00"
